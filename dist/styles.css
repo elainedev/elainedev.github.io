@@ -1,21 +1,25 @@
 .wall {
   width: 80%;
   margin: 0 auto;
-  background-color: #FFF8E7;
+  background-color: #EECCCC;
 }
 
 @font-face {
-  font-family: "milkeshake";
+  font-family: "milkeshakeregular";
   src: url(fonts/Milkshake.ttf);
 }
 .developer-name {
-  font-family: milkshake;
+  font-family: milkshakeregular;
   font-weight: 300;
-  font-size: 50px;
+  font-size: 500%;
+  color: white;
+  text-align: right;
+  margin-top: 4%;
+  font-weight: 700;
 }
 
 body {
-  background-color: #FFF8E7;
+  background-color: #EECCCC;
   margin: 0;
 }
 
