@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import Wall from './Wall';
 
-class App extends Component {
+class MainPage extends Component {
 	render() {
 		return (
 			<div>
-				<h1 className="test-css">My React App!</h1>
+				<Wall />
 			</div>
 		)
 	}
 }
 
-export default App;
+export default MainPage;
