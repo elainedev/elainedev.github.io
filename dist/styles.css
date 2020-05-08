@@ -4,12 +4,8 @@
   background-color: #EECCCC;
 }
 
-@font-face {
-  font-family: "milkeshakeregular";
-  src: url(fonts/Milkshake.ttf);
-}
 .developer-name {
-  font-family: milkshakeregular;
+  font-family: milkshake;
   font-weight: 300;
   font-size: 500%;
   color: white;
