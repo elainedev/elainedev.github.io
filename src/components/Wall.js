@@ -4,7 +4,7 @@ class Wall extends Component {
 	render() {
 		return (
 			<div className="wall">
-				Elaine Wang test
+				<div className="developer-name">Elaine Wang</div>
 			</div>
 		)
 	}
