@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/styles.css';
+import '../styles/css/styles.css';
 import '../styles/fonts/font-face.css';
 
 import Wall from './Wall';
