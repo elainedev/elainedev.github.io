@@ -5,9 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
+  "homepage": "https://elainedev.github.io/dist",
   "license": "ISC",
   "dependencies": {
     "react": "^16.13.1",
