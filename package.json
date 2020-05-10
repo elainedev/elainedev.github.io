@@ -1,15 +1,16 @@
 {
   "name": "reactapp",
   "version": "1.0.0",
+  "homepage": "https://elainedev.github.io",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d dist"
   },
   "author": "",
-  "homepage": "https://elainedev.github.io/dist",
   "license": "ISC",
   "dependencies": {
     "react": "^16.13.1",
