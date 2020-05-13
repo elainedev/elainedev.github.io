@@ -12,7 +12,7 @@ class Wall extends Component {
 					<div className="arrow-part triangle"></div>
 					<div className="arrow-part triangle-shadow"></div>
 					<div className="arrow-part rectangle">
-						<div className="projects-label">PROJECTS</div>
+						<div className="projects-label-gold">PROJECTS</div>
 					</div>
 				</div>
 			</div>
