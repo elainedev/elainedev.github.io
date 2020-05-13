@@ -30,46 +30,47 @@ $bg-color: #EECCCC
 
 .arrow-container
 	position: relative
+	display: flex
+	align-items: center
 
 	.arrow-part
 		display: inline-block
-		
 
 	.rectangle
 		width: 400px
 		height: 70px
 		background-color: white
 		box-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191, 1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191, 1px 7px 1px #919191, 1px 8px 1px #919191, 1px 13px 6px rgba(16,16,16,0.4), 1px 18px 10px rgba(16,16,16,0.2), 1px 25px 35px rgba(16,16,16,0.2), 1px 30px 60px rgba(16, 16, 16, 0.2)
+		display: flex
+		justify-content: center
+		align-items: center
 	
+		.projects-label
+			background: #999
+			color: transparent
+			text-shadow: 0px 1px 3px rgba(250,250,250,0.95)
+			-webkit-background-clip: text
+			-moz-background-clip: text
+			background-clip: text
+			font-size: 50px
+			transform: translate(-8px, 2px)
+
+
 	.triangle
 		width: 0
 		height: 0
 		border-top: 55px solid transparent
 		border-bottom: 55px solid transparent
 		border-right:55px solid white
-		transform: translate(2px, 20px)
-		z-index: 2
+		transform: translateX(2px)
 
-	
-	.triangle2
-		transform: translate(12px, 32px)
-		border-right:55px solid #919191
-		position: absolute
-		left: 0
-		top: 0
-		width: 0
-		height: 0
-		border-top: 55px solid transparent
-		border-bottom: 55px solid transparent
-		z-index: -1
-
-	.triangleshadow
+	.triangle-shadow
 		width: 79px
 		height: 8px
 		background: #919191
 		position: absolute
 		left: -12px
-		top: 102px
+		top: 82px
 		transform: rotate(45deg)
 		box-shadow: 1px 4px 6px rgba(16,16,16,0.4), 1px 9px 10px rgba(16,16,16,0.2), 1px 15px 35px rgba(16,16,16,0.2), 1px 20px 60px rgba(16, 16, 16, 0.2)
 
